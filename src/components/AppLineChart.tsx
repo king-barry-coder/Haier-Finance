@@ -57,7 +57,7 @@ const AppLineChart = () => {
                 tickMargin={8}
             />
 
-            <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
+            <ChartTooltip cursor={false} content={<ChartTooltipContent/>} />
             <Line
               dataKey="desktop"
               type="monotone"

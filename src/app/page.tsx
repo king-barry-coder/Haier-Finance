@@ -3,8 +3,8 @@ import AppChart from '@/components/AppChart'
 import AppPieChart from '@/components/AppPieChart'
 import CardList from '@/components/CardList'
 import ToDoList from '@/components/ToDoList'
-import { Button } from '@/components/ui/button'
-import { CirclePlus } from 'lucide-react'
+// import { Button } from '@/components/ui/button'
+// import { CirclePlus } from 'lucide-react'
 import React from 'react'
 
 const page = () => {

@@ -4,12 +4,12 @@ import { TrendingUp } from "lucide-react"
 import {  Label, Pie, PieChart } from "recharts"
 
 import {
-  Card,
-  CardContent,
-  CardDescription,
+  // Card,
+  // CardContent,
+  // CardDescription,
   CardFooter,
-  CardHeader,
-  CardTitle,
+  // CardHeader,
+  // CardTitle,
 } from '@/components/ui/card'
 import {
   ChartConfig,

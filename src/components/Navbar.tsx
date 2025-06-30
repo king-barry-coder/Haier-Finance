@@ -1,7 +1,7 @@
 "use client"
 
 
-import { ChevronDown, LogOut, Moon, Settings, Sun, User, User2 } from 'lucide-react'
+import { ChevronDown, LogOut, Moon, Settings, Sun, User, } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
@@ -16,10 +16,12 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Button } from './ui/button'
 import { useTheme } from 'next-themes'
-import { SidebarTrigger, useSidebar } from './ui/sidebar'
+import { SidebarTrigger, } from './ui/sidebar'
 
 const Navbar = () => {
-    const {theme, setTheme} = useTheme();
+    // write like this since theme not used used the other 
+    // const { theme, setTheme} = useTheme();
+    const {setTheme} = useTheme();
     // const {toggleSidebar} = useSidebar(); for custom button
   return (
     <div>
